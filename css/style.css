@@ -2,6 +2,9 @@ h1 {
     font-size: 3rem;
     background-color: coral;
 }
+main {
+    height: 100vh;
+}
 body {
     background-color: beige;
 }
@@ -23,3 +26,16 @@ body {
 .color_nav {
     background-color: rgb(8, 185, 197);
 }
+
+@media (max-width: 991px) {
+    main {
+        height: 155vh;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        height: 250vh;
+    }
+}
+
