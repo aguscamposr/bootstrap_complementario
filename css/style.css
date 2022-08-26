@@ -1,9 +1,9 @@
 h1 {
     font-size: 3rem;
-    background-color: coral;
+    background-color: rgb(9, 79, 93);
 }
 main {
-    height: 100vh;
+    height: 150%;
 }
 body {
     background-color: beige;
@@ -26,16 +26,3 @@ body {
 .color_nav {
     background-color: rgb(8, 185, 197);
 }
-
-@media (max-width: 991px) {
-    main {
-        height: 155vh;
-    }
-}
-
-@media (max-width: 425px) {
-    main {
-        height: 250vh;
-    }
-}
-
